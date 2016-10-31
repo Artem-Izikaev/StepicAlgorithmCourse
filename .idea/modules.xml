@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section1/lesson1/lesson1.iml" filepath="$PROJECT_DIR$/section1/lesson1/lesson1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section1/lesson1/task1/lesson1-task1.iml" filepath="$PROJECT_DIR$/section1/lesson1/task1/lesson1-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson10/lesson10.iml" filepath="$PROJECT_DIR$/section4/lesson10/lesson10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson10/task1/lesson10-task1.iml" filepath="$PROJECT_DIR$/section4/lesson10/task1/lesson10-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson11/lesson11.iml" filepath="$PROJECT_DIR$/section5/lesson11/lesson11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson11/task1/lesson11-task1.iml" filepath="$PROJECT_DIR$/section5/lesson11/task1/lesson11-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson11/task2/lesson11-task2.iml" filepath="$PROJECT_DIR$/section5/lesson11/task2/lesson11-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson12/lesson12.iml" filepath="$PROJECT_DIR$/section5/lesson12/lesson12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson12/task1/lesson12-task1.iml" filepath="$PROJECT_DIR$/section5/lesson12/task1/lesson12-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson13/lesson13.iml" filepath="$PROJECT_DIR$/section5/lesson13/lesson13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson13/task1/lesson13-task1.iml" filepath="$PROJECT_DIR$/section5/lesson13/task1/lesson13-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson14/lesson14.iml" filepath="$PROJECT_DIR$/section5/lesson14/lesson14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson14/task1/lesson14-task1.iml" filepath="$PROJECT_DIR$/section5/lesson14/task1/lesson14-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/lesson14/task2/lesson14-task2.iml" filepath="$PROJECT_DIR$/section5/lesson14/task2/lesson14-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/lesson2/lesson2.iml" filepath="$PROJECT_DIR$/section2/lesson2/lesson2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/lesson2/task1/lesson2-task1.iml" filepath="$PROJECT_DIR$/section2/lesson2/task1/lesson2-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/lesson2/task2/lesson2-task2.iml" filepath="$PROJECT_DIR$/section2/lesson2/task2/lesson2-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/lesson2/task3/lesson2-task3.iml" filepath="$PROJECT_DIR$/section2/lesson2/task3/lesson2-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/lesson3/lesson3.iml" filepath="$PROJECT_DIR$/section2/lesson3/lesson3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/lesson3/task1/lesson3-task1.iml" filepath="$PROJECT_DIR$/section2/lesson3/task1/lesson3-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson4/lesson4.iml" filepath="$PROJECT_DIR$/section3/lesson4/lesson4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson4/task1/lesson4-task1.iml" filepath="$PROJECT_DIR$/section3/lesson4/task1/lesson4-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson4/task2/lesson4-task2.iml" filepath="$PROJECT_DIR$/section3/lesson4/task2/lesson4-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson4/task3/lesson4-task3.iml" filepath="$PROJECT_DIR$/section3/lesson4/task3/lesson4-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson5/lesson5.iml" filepath="$PROJECT_DIR$/section3/lesson5/lesson5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson5/task1/lesson5-task1.iml" filepath="$PROJECT_DIR$/section3/lesson5/task1/lesson5-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson5/task2/lesson5-task2.iml" filepath="$PROJECT_DIR$/section3/lesson5/task2/lesson5-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson6/lesson6.iml" filepath="$PROJECT_DIR$/section3/lesson6/lesson6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/lesson6/task1/lesson6-task1.iml" filepath="$PROJECT_DIR$/section3/lesson6/task1/lesson6-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson7/lesson7.iml" filepath="$PROJECT_DIR$/section4/lesson7/lesson7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson7/task1/lesson7-task1.iml" filepath="$PROJECT_DIR$/section4/lesson7/task1/lesson7-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson8/lesson8.iml" filepath="$PROJECT_DIR$/section4/lesson8/lesson8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson8/task1/lesson8-task1.iml" filepath="$PROJECT_DIR$/section4/lesson8/task1/lesson8-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson9/lesson9.iml" filepath="$PROJECT_DIR$/section4/lesson9/lesson9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/lesson9/task1/lesson9-task1.iml" filepath="$PROJECT_DIR$/section4/lesson9/task1/lesson9-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section1/section1.iml" filepath="$PROJECT_DIR$/section1/section1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section2/section2.iml" filepath="$PROJECT_DIR$/section2/section2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section3/section3.iml" filepath="$PROJECT_DIR$/section3/section3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section4/section4.iml" filepath="$PROJECT_DIR$/section4/section4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section5/section5.iml" filepath="$PROJECT_DIR$/section5/section5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+    </modules>
+  </component>
+</project>

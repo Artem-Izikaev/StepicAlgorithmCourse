@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StepikStudySettings">
+    <StepikStudyTaskManager>
+      <option name="course">
+        <Course>
+          <option name="adaptive" value="false" />
+          <option name="courseDirectory" value="C:\Users\Admin\.IdeaIC2016.2\config\courses\Алгоритмы. теория и практика. Методы" />
+          <option name="courseMode" value="stepik_code" />
+          <option name="courseType" value="stepik" />
+          <option name="description" value="В курсе будут разобраны основные алгоритмические методы: жадные алгоритмы, «разделяй и властвуй», динамическое программирование. Помимо теоретических основ, будут рассмотрены тонкости реализации рассмотренных алгоритмов на языках C++, Java и Python. Слушателям будет предложено реализовать большинство разобранных в курсе алгоритмов. Решения будут проверяться тестирующей системой на тщательно подобранных тестах.&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;p&gt;Курс входит в онлайн-программы по &lt;a href=&quot;http://code.stepic.org/&quot;&gt;основам программирования&lt;/a&gt; и &lt;a href=&quot;http://data.stepik.org/&quot;&gt;анализу данных&lt;/a&gt;.&lt;/p&gt;" />
+          <option name="id" value="217" />
+          <option name="language" value="Python" />
+          <option name="lessons">
+            <list>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="1.Обзор" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step4" />
+                      <option name="position" value="4" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="38529" />
+                      <option name="text" value="&lt;h2&gt;Пример задачи на программирование&lt;/h2&gt;&#10;&lt;p&gt;В данной задаче требуется вычислить сумму двух входных целых чисел, лежащих в отрезке от нуля до десяти. Никаких подвохов, это очевидная задача, предназначенная для того, чтобы познакомить вас с проверяющей системой. На следующем степе приведены решения данной задачи на нескольких языках программирования (вы можете прямо сейчас перейти туда и скопировать решение оттуда). В этой задаче, как и во всех задачах на программирование, не нужно проверять, что входные данные удовлетворяют требованиям, заявленным в условии. Другими словами, во всех тестах, на которых будет проверяться ваша программа, на вход будут подаваться два целых числа от 0 до 10.&lt;/p&gt;&#10;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2 7&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;9&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="def main():&#10;    a, b = map(int, input().split())&#10;    res = ...&#10;    print(res)&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="1.Числа Фибоначчи" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step6" />
+                      <option name="position" value="6" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="39715" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: небольшое число Фибоначчи&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Дано целое число $1 \le n \le 40$, необходимо вычислить $n$-е число Фибоначчи (напомним, что $F_0=0$, $F_1=1$ и $F_n=F_{n-1}+F_{n-2}$ при $n \ge 2$).&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="def fib(n):&#10;    # put your code here&#10;&#10;def main():&#10;    n = int(input())&#10;    print(fib(n))&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="step7" />
+                      <option name="position" value="7" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="39716" />
+                      <option name="text" value="&lt;h2&gt;&lt;strong&gt;Задача на программирование: последняя цифра большого числа Фибоначчи&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Дано число $1 \le n \le 10^7$, необходимо найти последнюю цифру $n$-го числа Фибоначчи.&lt;/p&gt;&#10;&lt;p&gt;Как мы помним, числа Фибоначчи растут очень быстро, поэтому при их вычислении нужно быть аккуратным с переполнением. В данной задаче, впрочем, этой проблемы можно избежать, поскольку нас интересует только последняя цифра числа Фибоначчи: если $0 \le a,b \le 9$ — последние цифры чисел $F_i$ и $F_{i+1}$ соответственно, то $(a+b) \bmod{10}$ — последняя цифра числа $F_{i+2}$.&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;132941&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="def fib_digit(n):&#10;    ...&#10;&#10;&#10;def main():&#10;    n = int(input())&#10;    print(fib_digit(n))&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="step8" />
+                      <option name="position" value="8" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="39717" />
+                      <option name="text" value="&lt;h2&gt;&lt;strong&gt;Задача на программирование повышенной сложности: огромное число Фибоначчи по модулю&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Даны целые числа $1 \le n \le 10^{18}$ и $2 \le m \le 10^5$, необходимо найти остаток от деления $n$-го числа Фибоначчи на $m$.&lt;/p&gt;&#10;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;10 2&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="def fib_mod(n, m):&#10;    ...&#10;&#10;&#10;def main():&#10;    n, m = map(int, input().split())&#10;    print(fib_mod(n, m))&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="3" />
+                <option name="name" value="2.Наибольший общий делитель" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step5" />
+                      <option name="position" value="5" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="40665" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: наибольший общий делитель&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;По данным двум числам $1 \le a, b \le 2 \cdot 10^9$ найдите их наибольший общий делитель.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;18 35&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;14159572 63967072&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="def gcd(a, b):&#10;    ...&#10;&#10;&#10;def main():&#10;    a, b = map(int, input().split())&#10;    print(gcd(a, b))&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="4" />
+                <option name="name" value="1.Введение" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step9" />
+                      <option name="position" value="9" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="39735" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: покрыть отрезки точками&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;По данным $n$ отрезкам необходимо найти множество точек минимального размера, для которого каждый из отрезков содержит хотя бы одну из точек.&lt;/p&gt;&lt;p&gt;В первой строке дано число $1 \le n \le 100$ отрезков. Каждая из последующих $n$ строк содержит по два числа $0 \le l \le r \le 10^9$, задающих начало и конец отрезка. Выведите оптимальное число $m$ точек и сами $m$ точек. Если таких множеств точек несколько, выведите любое из них.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;1 3&lt;br&gt;2 5&lt;br&gt;3 6&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;3 &lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;4 7&lt;br&gt;1 3&lt;br&gt;2 5&lt;br&gt;5 6&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;3 6 &lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="step10" />
+                      <option name="position" value="10" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="39740" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: непрерывный рюкзак&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Первая строка содержит количество предметов $1 \le n \le 10^3$ и вместимость рюкзака $0 \le W \le 2 \cdot 10^6$. Каждая из следующих $n$ строк задаёт стоимость $0 \le c_i \le 2\cdot 10^6$ и объём $0 \lt  w_i \le 2\cdot 10^6$ предмета ($n$, $W$, $c_i$, $w_i$ — целые числа). Выведите максимальную стоимость частей предметов (от каждого предмета можно отделить любую часть, стоимость и объём при этом пропорционально уменьшатся), помещающихся в данный рюкзак, с точностью не менее трёх знаков после запятой.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;3 50&lt;br&gt;60 20&lt;br&gt;100 50&lt;br&gt;120 30&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;180.000&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="step11" />
+                      <option name="position" value="11" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="39741" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: различные слагаемые&lt;/h2&gt;&lt;p&gt;По данному числу $1 \le n \le 10^9$ найдите максимальное число $k$, для которого $n$ можно представить как сумму $k$ различных натуральных слагаемых. Выведите в первой строке число $k$, во второй — $k$ слагаемых.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;1 3 &lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;6&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;1 2 3 &lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="5" />
+                <option name="name" value="2.Коды Хаффмана" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step5" />
+                      <option name="position" value="5" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41097" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: кодирование Хаффмана&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;По данной непустой строке $s$ длины не более $10^4$, состоящей из строчных букв латинского алфавита, постройте оптимальный беспрефиксный код. В первой строке выведите количество различных букв $k$, встречающихся в строке, и размер получившейся закодированной строки. В следующих $k$ строках запишите коды букв в формате &quot;letter: code&quot;. В последней строке выведите закодированную строку.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;a&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1 1&lt;br&gt;a: 0&lt;br&gt;0&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;abacabad&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;4 14&lt;br&gt;a: 0&lt;br&gt;b: 10&lt;br&gt;c: 110&lt;br&gt;d: 111&lt;br&gt;01001100100111&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="step6" />
+                      <option name="position" value="6" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41098" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: декодирование Хаффмана&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Восстановите строку по её коду и беспрефиксному коду символов. &lt;/p&gt;&lt;p&gt;&lt;span&gt;В первой строке входного файла заданы два целых числа $k$ и $l$ через пробел — количество различных букв, встречающихся в строке, и размер получившейся закодированной строки, соответственно. В следующих $k$ строках записаны коды букв в формате &quot;letter: code&quot;&lt;/span&gt;&lt;span&gt;.&lt;b&gt;&lt;/b&gt; Ни один код не является префиксом другого. Буквы могут быть перечислены в любом порядке. В качестве букв могут встречаться лишь строчные буквы латинского алфавита; каждая из этих букв встречается в строке хотя бы один раз. Наконец, в последней строке записана закодированная строка. &lt;/span&gt;&lt;span&gt;Исходная строка и коды всех букв непусты. Заданный код таков, что закодированная строка имеет минимальный возможный размер.&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;В первой строке выходного файла выведите строку $s$. Она должна состоять из строчных букв латинского алфавита. &lt;/span&gt;&lt;span&gt;Гарантируется, что длина правильного ответа не превосходит $10^4$ символов.&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1 1&lt;br&gt;a: 0&lt;br&gt;0&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;a&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;4 14&lt;br&gt;a: 0&lt;br&gt;b: 10&lt;br&gt;c: 110&lt;br&gt;d: 111&lt;br&gt;01001100100111&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;abacabad&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="6" />
+                <option name="name" value="3.Очереди с приоритетами" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step8" />
+                      <option name="position" value="8" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41101" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: очередь с приоритетами&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Первая строка входа содержит число операций $1 \le n \le 10^5$. Каждая из последующих $n$ строк задают операцию одного из следующих двух типов:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;${\tt Insert}$ $ {\tt x} $, где $0 \le x \le 10^9$ — целое число;&lt;br&gt;&lt;/li&gt;&lt;li&gt;${\tt ExtractMax}$.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Первая операция добавляет число $x$ в очередь с приоритетами, вторая — извлекает максимальное число и выводит его.&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;6&lt;br&gt;Insert 200&lt;br&gt;Insert 10&lt;br&gt;ExtractMax&lt;br&gt;Insert 5&lt;br&gt;Insert 500&lt;br&gt;ExtractMax&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;200&lt;br&gt;500&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="7" />
+                <option name="name" value="1.Двоичный поиск" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step4" />
+                      <option name="position" value="4" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41381" />
+                      <option name="text" value="&lt;h2&gt;&lt;strong&gt;Задача на программирование: двоичный поиск&lt;/strong&gt; &lt;/h2&gt;&lt;p&gt;﻿&lt;br&gt;&lt;/p&gt;&lt;p&gt;В первой строке даны целое число $1 \le n \le 10^5$ и массив $A[1 \ldots n]$ из $n$ различных натуральных чисел, не превышающих $10^9$, в порядке возрастания, во второй — целое число $1 \le k \le 10^5$ и $k$ натуральных чисел $b_1, \ldots, b_k$, не превышающих $10^9$. Для каждого $i$ от 1 до $k$ необходимо вывести индекс $1 \le j \le n$, для которого $A[j]=b_i$, или $-1$, если такого $j$ нет.&lt;/p&gt;&#10;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&#10;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5 1 5 8 12 13&lt;br&gt;5 8 1 23 1 11&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3 1 -1 1 -1&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="8" />
+                <option name="name" value="3.Сортировка слиянием" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step5" />
+                      <option name="position" value="5" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41390" />
+                      <option name="text" value="&lt;h2&gt;&lt;strong&gt;Задача на программирование: число инверсий&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;﻿&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Первая строка содержит число $1 \le n \le 10^5$, вторая — массив $A[1\ldots n]$, содержащий натуральные числа, не превосходящие $10^9$. Необходимо посчитать число пар индексов $1 \le i \lt  j \le n$, для которых $A[i] \gt A[j]$. (Такая пара элементов называется инверсией массива. Количество инверсий в массиве является в некотором смысле его мерой неупорядоченности: например, в упорядоченном по неубыванию массиве инверсий нет вообще, а в массиве, упорядоченном по убыванию, инверсию образуют каждые два элемента.)&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&#10;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;2 3 9 2 9&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="9" />
+                <option name="name" value="4.Быстрая сортировка" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step6" />
+                      <option name="position" value="6" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41391" />
+                      <option name="text" value="&lt;h2&gt;&lt;strong&gt;Задача на программирование: точки и отрезки&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;﻿&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;В первой строке задано два целых числа $1 \le n \le 50000$ и $1 \le m \le 50000$ — количество отрезков и точек на прямой, соответственно. Следующие $n$ строк содержат по два целых числа $a_i$ и $b_i$ ($a_i \le b_i$) — координаты концов отрезков. Последняя строка содержит $m$ целых чисел — координаты точек. Все координаты не превышают $10^8$ по модулю. Точка считается принадлежащей отрезку, если она находится внутри него или на границе. Для каждой точки в порядке появления во вводе выведите, скольким отрезкам она принадлежит.&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&#10;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2 3&lt;br&gt;0 5&lt;br&gt;7 10&lt;br&gt;1 6 11&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1 0 0&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="10" />
+                <option name="name" value="7.Сортировки, основанные не на сравнениях" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step3" />
+                      <option name="position" value="3" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41478" />
+                      <option name="text" value="&lt;h2&gt;&lt;strong&gt;Задача на программирование: сортировка подсчётом&lt;/strong&gt; &lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Первая строка содержит число $1 \le n \le 10^4$, вторая — $n$ натуральных чисел, не превышающих 10. Выведите упорядоченную по неубыванию последовательность этих чисел.&lt;/p&gt;&#10;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;&lt;br&gt;&lt;/p&gt;&#10;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;2 3 9 2 9&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2 2 3 9 9&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="11" />
+                <option name="name" value="2.Наибольшая возрастающая подпоследовательность" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step5" />
+                      <option name="position" value="5" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41604" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: наибольшая последовательнократная подпоследовательность&lt;/h2&gt;&lt;p&gt;Дано целое число $1 \le n \le 10^3$ и массив $A[1\ldots n]$ натуральных чисел, не превосходящих $2 \cdot 10^9$. Выведите максимальное $1 \le k \le n$, для которого найдётся подпоследовательность $1 \le i_1 \lt  i_2 \lt  \ldots \lt  i_k \le n$ длины $k$, в которой каждый элемент делится на предыдущий (формально: для  всех $1 \le j \lt  k$, $A[i_j]\, | \,A[i_{j+1}]$).&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;3 6 7 12&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="step6" />
+                      <option name="position" value="6" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41603" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование повышенной сложности: наибольшая невозрастающая подпоследовательность&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Дано целое число $1 \le n \le 10^5$и массив $A[1 \ldots n]$, содержащий неотрицательные целые числа, не превосходящие $10^9$. Найдите наибольшую невозрастающую подпоследовательность в $A$. В первой строке выведите её длину $k$, во второй — её индексы $1\le i_1 \lt  i_2\lt  \ldots \lt i_k \le n$ (таким образом, $A[i_1] \ge A[i_2] \ge \ldots \ge A[i_n]$).&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;5 3 4 4 2&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;1 3 4 5 &lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="12" />
+                <option name="name" value="3.Расстояние редактирования" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step8" />
+                      <option name="position" value="8" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41605" />
+                      <option name="text" value="&lt;p&gt;&lt;/p&gt;&lt;h2&gt;Задача на программирование: расстояние редактирования&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;wysiwyg-text-align-left&quot;&gt;Вычислите расстояние редактирования двух данных непустых строк длины не более $10^2$, содержащих строчные буквы латинского алфавита.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;ab&lt;br&gt;ab&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;short&lt;br&gt;ports&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 2s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="13" />
+                <option name="name" value="4.Рюкзак" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step5" />
+                      <option name="position" value="5" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41683" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: рюкзак&lt;/h2&gt;&lt;p&gt;﻿&lt;br&gt;&lt;/p&gt;&lt;p&gt;Первая строка входа содержит целые числа $1 \le W \le 10^4$ и $1 \le n \le 300$ — вместимость рюкзака и число золотых слитков. Следующая строка содержит $n$ целых чисел $0 \le w_1, \ldots, w_n \le 10^5$, задающих веса слитков. Найдите максимальный вес золота, который можно унести в рюкзаке.&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;10 3&lt;br&gt;1 4 8&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;9&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="14" />
+                <option name="name" value="7.Обзор" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="step4" />
+                      <option name="position" value="4" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41684" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: лестница&lt;/h2&gt;&lt;p&gt;Даны число $1 \le n \le 10^2$ ступенек лестницы и целые числа $-10^4 \le a_1, \ldots, a_n \le 10^4$, которыми помечены ступеньки. Найдите максимальную сумму, которую можно получить, идя по лестнице снизу вверх (от нулевой до $n$-й ступеньки), каждый раз поднимаясь на одну или две ступеньки.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;1 2&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;2 -1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;-1 2 1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="step5" />
+                      <option name="position" value="5" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="41686" />
+                      <option name="text" value="&lt;h2&gt;Задача на программирование: калькулятор&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;У вас есть примитивный калькулятор, который умеет выполнять всего три операции с текущим числом $x$: заменить $x$ на $2x$, $3x$ или $x+1$. По данному целому числу $1 \le n \le 10^5$ определите минимальное число операций $k$, необходимое, чтобы получить $n$ из 1. Выведите $k$ и последовательность промежуточных чисел.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0&lt;br&gt;1 &lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;1 2 4 5 &lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;96234&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;14&lt;br&gt;1 3 9 10 11 22 66 198 594 1782 5346 16038 16039 32078 96234 &lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="Main.java" />
+                                <option name="text" value="class Main {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="main.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="-1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="main.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+            </list>
+          </option>
+          <option name="name" value="Алгоритмы. теория и практика. Методы" />
+          <option name="sectionsNames">
+            <map>
+              <entry key="section1" value="1.Обзор" />
+              <entry key="section10" value="10.Заключительный модуль" />
+              <entry key="section2" value="2.Введение: теория и задачи" />
+              <entry key="section3" value="3.Введение: практика и разбор задач" />
+              <entry key="section4" value="4.Жадные алгоритмы: теория и задачи" />
+              <entry key="section5" value="5.Жадные алгоритмы: практика и разбор задач" />
+              <entry key="section6" value="6.«Разделяй и властвуй»: теория и задачи" />
+              <entry key="section7" value="7.«Разделяй и властвуй»: практика и разбор задач" />
+              <entry key="section8" value="8.Динамическое программирование: теория и задачи" />
+              <entry key="section9" value="9.Динамическое программирование: практика и разбор задач" />
+            </map>
+          </option>
+          <option name="upToDate" value="true" />
+        </Course>
+      </option>
+      <option name="defaultLang" value="java8" />
+      <option name="langManager">
+        <LangManager>
+          <option name="langSettingsMap">
+            <map>
+              <entry key="38529">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="39715">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="39716">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="39717">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="39735">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="39740">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="39741">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="40665">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41097">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41098">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41101">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41381">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41390">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41391">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41478">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41603">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41604">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41605">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41683">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41684">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+              <entry key="41686">
+                <value>
+                  <LangSetting>
+                    <option name="currentLang" value="java8" />
+                    <option name="supportLangs">
+                      <set>
+                        <option value="java8" />
+                        <option value="python3" />
+                      </set>
+                    </option>
+                  </LangSetting>
+                </value>
+              </entry>
+            </map>
+          </option>
+        </LangManager>
+      </option>
+      <option name="showHint" value="true" />
+      <option name="toolWindowMode" value="TEXT" />
+      <option name="turnEditingMode" value="false" />
+      <option name="user">
+        <StepikUser>
+          <option name="accessToken" value="hM1pj6wwd7cCSeH6mn62YLVXEL6rYL" />
+          <option name="email" value="aizikaev@gmail.com" />
+          <option name="firstName" value="Artem" />
+          <option name="id" value="20439742" />
+          <option name="lastName" value="Izikaev" />
+          <option name="refreshToken" value="HhFge5XAs6dYCIk36LW15jYUMkQ4aK" />
+        </StepikUser>
+      </option>
+      <option name="VERSION" value="3" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="myInvisibleFiles">
+        <list />
+      </option>
+      <option name="myShouldUseJavaFx" value="true" />
+    </StepikStudyTaskManager>
+  </component>
+</project>
