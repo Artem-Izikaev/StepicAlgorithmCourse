@@ -13,13 +13,12 @@ class Main {
         BigInteger fRes = new BigInteger("0");
         if (n == 0 || n == 1)
             fRes = BigInteger.valueOf(n);
-        else {
+        else
             for (int i = 1; i < n; i++) {
                 fRes = f1.add(f2);
                 f1 = f2;
                 f2 = fRes;
             }
-        }
         return fRes;
     }
 }
