@@ -220,7 +220,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="-1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="userCreated" value="false" />
@@ -1328,12 +1328,12 @@
       <option name="turnEditingMode" value="false" />
       <option name="user">
         <StepikUser>
-          <option name="accessToken" value="hM1pj6wwd7cCSeH6mn62YLVXEL6rYL" />
+          <option name="accessToken" value="LNnOD5YSwJqo31rufnaeaP1KmXu6R2" />
           <option name="email" value="aizikaev@gmail.com" />
           <option name="firstName" value="Artem" />
           <option name="id" value="20439742" />
           <option name="lastName" value="Izikaev" />
-          <option name="refreshToken" value="HhFge5XAs6dYCIk36LW15jYUMkQ4aK" />
+          <option name="refreshToken" value="s0M8sXqUQROT9r4ek2yQmOXBb8vnBK" />
         </StepikUser>
       </option>
       <option name="VERSION" value="3" />
