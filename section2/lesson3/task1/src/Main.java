@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 class Main {
-    static BigInteger iA, iB;
+    private static BigInteger iA, iB;
 
     public static void main(String[] args) {
         getInputData();
@@ -16,10 +16,10 @@ class Main {
     }
 
     public static BigInteger euclidGCD (BigInteger a, BigInteger b) {
-        if (a == BigInteger.ZERO)
+        if (a.compareTo(BigInteger.ZERO) == 0)
             return b;
         else
-        if (b == BigInteger.ZERO)
+        if (b.compareTo(BigInteger.ZERO) == 0)
             return a;
         else
         if (a.compareTo(b) > 0)
