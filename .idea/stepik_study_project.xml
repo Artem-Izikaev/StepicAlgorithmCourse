@@ -209,7 +209,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="step5" />
                       <option name="position" value="5" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="40665" />
                       <option name="text" value="&lt;h2&gt;Задача на программирование: наибольший общий делитель&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;По данным двум числам $1 \le a, b \le 2 \cdot 10^9$ найдите их наибольший общий делитель.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;18 35&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;14159572 63967072&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 1s&lt;br&gt;&lt;br&gt;" />
                       <option name="taskFiles">
